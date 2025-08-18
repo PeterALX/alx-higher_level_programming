@@ -8,3 +8,6 @@ def uppercase(str):
             print('{:c}'.format(o))
         else:
             print('{:c}'.format(o), end='')
+
+
+print(uppercase(''))
