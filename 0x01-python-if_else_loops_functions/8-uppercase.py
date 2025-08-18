@@ -1,13 +1,11 @@
 #!/usr/bin/python3
 
 def uppercase(str):
-    for idx, char in enumerate(str):
-        o = ord(char) - 32 if ord(char) >= 97 and ord(
-            char) <= 122 else ord(char)
-        if idx == len(str) - 1:
-            print('{:c}'.format(o))
+    new_str = ""
+    for i in str:
+        if i >= 'a' and i <= 'z':
+            new_str = new_str + chr((ord(i) - 32))
         else:
-            print('{:c}'.format(o), end='')
+            new_str = new_str + i
 
-
-print(uppercase(''))
+    print("{}".format(new_str))
