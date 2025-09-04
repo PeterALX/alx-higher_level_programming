@@ -2,4 +2,4 @@
 
 def no_c(my_string):
     string_dema_list = my_string[:]
-    return ''.join(c for c in string_dema_list if c != 'c' and 'C')
+    return ''.join(c for c in string_dema_list if c != 'c' and c != 'C')
