@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """An implementation of the MagicClass disassembly"""
+import dis
 import math
 
 
@@ -12,9 +13,9 @@ class MagicClass:
         self.__radius = radius
 
     def area(self):
-        """Returns the area of the square instance"""
+        """Returns the area of the circle instance"""
         return self.__radius ** 2 * math.pi
 
-    def circumfrence(self):
-        """Returns the circumfrence of the square instance"""
+    def circumference(self):
+        """Returns the circumference of the circle instance"""
         return 2 * math.pi * self.__radius
