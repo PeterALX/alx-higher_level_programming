@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+"""An implementation of the MagicClass disassembly"""
 import math
 
 
